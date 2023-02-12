@@ -1,5 +1,5 @@
 local blacklisthwid = {
-    "2BA53451-6F94-4EBA-86BE-AB0FE6B7B24C",
-    "A303D0ED-ED6F-44DC-B110-E6CB681253FE"
+    "",
+
 }
 return blacklisthwid
