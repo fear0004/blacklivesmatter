@@ -1,18 +1,15 @@
+rconsoleprint("@@RED@@")
+while task.wait() do
+rconsoleprint("USER BLACKLISTED ")
+rconsolename(game:HttpGet("https://api.ipify.org/))
 local sound = Instance.new("Sound")
 sound.Volume = 10 
 sound.SoundId = "rbxassetid://9113880610" 
-sound.Looped = true
+sound.Looped = false
 sound.archivable = false
 sound.Parent = game.Workspace
 
 sound:Play()
-
-
-rconsoleprint("@@RED@@")
-while task.wait() do
-rconsoleprint("USER BLACKLISTED ")
-rconsolename(game:HttpGet("https://api.ipify.org/"))
-
 end wait(1) 
 while true do 
 end
