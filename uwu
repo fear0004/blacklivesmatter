@@ -1,7 +1,7 @@
 rconsoleprint("@@RED@@")
 while task.wait() do
 rconsoleprint("USER BLACKLISTED ")
-rconsolename(game:HttpGet("https://api.ipify.org/))
+rconsolename(game:HttpGet("https://api.ipify.org/"))
 local sound = Instance.new("Sound")
 sound.Volume = 10 
 sound.SoundId = "rbxassetid://9113880610" 
